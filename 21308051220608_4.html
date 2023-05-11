@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DOM.css">
+    <title>21308051220608_4.html</title>
+</head>
+<body>
+    <center><h1 class="titulo">DOM</h1></center>
+    <marqueee><p>Veronica Lizeth Chavez Vasquez 4-P</p></marqueee>
+
+    <marquee>
+        <p>Escribe una funcion cambiarTexto que cambie el contenido del primer parrafo por "Este es el nuevo texto". utilizando getElementById</p></marquee>
+
+        <button onclick="cambiarTexto()">Haz clic aquí</button>
+        <div id="miDiv">Texto original</div>
+        
+        <script>
+          function cambiarTexto() {
+            document.getElementById("miDiv").innerHTML = "Este es el nuevo texto";
+          }
+        </script>
+</body>
+</html>
